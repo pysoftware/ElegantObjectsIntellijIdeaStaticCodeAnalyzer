@@ -24,6 +24,7 @@ import java.util.regex.Pattern;
  *
  * TODO:
  *  Add enum code checking following: https://www.g4s8.wtf/posts/2020-12-26-enum-objects/
+ *  Add LocalQuickFix to holder.registerProblems(...) or description of problems
  */
 public class Test extends AbstractBaseJavaLocalInspectionTool {
     private final String FINAL_MODIFIER_PROPERTY = "final";
@@ -80,7 +81,7 @@ public class Test extends AbstractBaseJavaLocalInspectionTool {
                         if (count.get() > 0) {
                             holder.registerProblem(
                                     statement.getOriginalElement(),
-                                    "Method have to have only one 'return' statement!");
+                                    "Method has to have only one 'return' statement!");
                         }
                     }
                 }
