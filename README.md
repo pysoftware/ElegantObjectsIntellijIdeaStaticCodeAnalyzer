@@ -19,7 +19,7 @@ public Integer calc(int a, int b) {
 ```
 must be:
 ```java
-public Integer calc() {
+public Integer calc(int a, int b) {
     if(a < 0 || b < 0) {
         // or throw exception
         // or new YourEntity extends Number with constructor (int val)
