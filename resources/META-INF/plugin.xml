@@ -2,9 +2,9 @@
   <id>com.your.company.unique.plugin.id</id>
   <name>Cock</name>
   <version>1.0</version>
-  <vendor email="coock@mail.ru" url="coock@mail.ru">Cock</vendor>
+  <vendor email="sqzonow@mail.ru" url="sqzonow@mail.ru">Cock</vendor>
 
-  <description>FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFf</description>
+  <description>Elegant objects Intellij Idea static code analyzer</description>
 
   <change-notes></change-notes>
 
@@ -41,17 +41,17 @@
     implementationClass= FQN of inspection implementation
 -->
     <localInspection language="JAVA"
-                     displayName="SDK: '==' or '!=' used instead of 'equals()'"
+                     displayName="Elegant objects static analyzer"
                      groupPath="Java"
                      groupBundle="messages.InspectionsBundle"
                      groupKey="group.names.probable.bugs"
                      enabledByDefault="true"
                      level="WARNING"
-                     implementationClass="main.Test"/>
+                     implementationClass="main.ElegantObjectsCodeInspection"/>
   </extensions>
 
   <!-- Text to display as company information on Preferences/Settings | Plugin page -->
-  <vendor>IntelliJ Platform SDK</vendor>
+  <vendor>Elegant objects static analyzer</vendor>
 
   <actions>
 

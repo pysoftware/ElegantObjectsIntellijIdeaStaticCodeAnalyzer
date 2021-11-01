@@ -26,7 +26,7 @@ import java.util.regex.Pattern;
  *  Add enum code checking following: https://www.g4s8.wtf/posts/2020-12-26-enum-objects/
  *  Add LocalQuickFix to holder.registerProblems(...) or description of problems
  */
-public class Test extends AbstractBaseJavaLocalInspectionTool {
+public class ElegantObjectsCodeInspection extends AbstractBaseJavaLocalInspectionTool {
     private final String FINAL_MODIFIER_PROPERTY = "final";
 
     @Override
