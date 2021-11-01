@@ -1,3 +1,11 @@
+How to install: 
+1) Download .jar file
+2) In intellij idea go to File -> Settings
+3) Go to Plugins
+4) Click to settings icon near "Marketplace" and "Installed"
+5) Click "Install Plugin from disk" and choose .jar 
+6) Restart IDE
+
 Checking rules for now:
 
 1) Returning 'null' in method:
